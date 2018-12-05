@@ -7,30 +7,33 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForAnalyzing = "YES"
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
-            buildForArchiving = "YES">
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7BCBE4B419AAE1FD5407EFF54687FA1B"
-               BlueprintName = "Pods-TCPScoketClient"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-TCPScoketClient.a">
+               BlueprintIdentifier = "8128A44AB077AE2F0C1EEAA983D5271D"
+               BuildableName = "libCocoaAsyncSocket.a"
+               BlueprintName = "CocoaAsyncSocket"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -38,17 +41,25 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      buildConfiguration = "Debug"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8128A44AB077AE2F0C1EEAA983D5271D"
+            BuildableName = "libCocoaAsyncSocket.a"
+            BlueprintName = "CocoaAsyncSocket"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES"
-      buildConfiguration = "Release"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      debugDocumentVersioning = "YES">
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

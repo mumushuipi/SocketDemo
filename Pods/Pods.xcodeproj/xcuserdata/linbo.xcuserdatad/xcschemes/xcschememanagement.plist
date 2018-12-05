@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CocoaAsyncSocket.xcscheme</key>
+		<key>CocoaAsyncSocket.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-TCPScoketClient.xcscheme</key>
+		<key>Pods-TCPScoketClient.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
